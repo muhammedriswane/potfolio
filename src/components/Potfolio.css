@@ -1,3 +1,7 @@
+
+* {
+    box-sizing: border-box;
+  }
 .header{
     text-align: center;
 }
@@ -26,7 +30,7 @@ h1{
 .footerdiv{
     display: flex;
     margin-left: 50px;
-    margin-top: 30px;
+    margin-top: 10px;
 width: 80rem;
 border: 3px solid;
 
@@ -34,7 +38,7 @@ border: 3px solid;
 .addprodiv{
     /* background-color: aqua; */
     background-image: linear-gradient(to right,rgb(245, 231, 242),rgb(153, 152, 240));
-    width: 800px;
+    width: 650px;
     height: 400px;
      margin-left: auto;
     margin-right: auto;
@@ -68,4 +72,70 @@ body{
     padding-left: 20px;
     color: beige;
   }
-  
+  /* [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  [class*="col-"] {
+    width: 100%;
+  }
+   */
+   @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body{
+    
+        background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Ik3xAk5C1irVgo5rw_rtTQzr4thcS3U9fA&usqp=CAU);
+        background-size: 100%;
+        
+    }
+    .proimg{
+        height: 50px;
+        width: 50px;
+    }
+    .aboutmediv{
+        display: flex;
+        width: 100%;
+    }
+    .subdiv1{
+        margin-left: 20px;
+        margin-bottom: 70px;
+    
+        
+        
+       border:5px solid;
+        background-color: rgb(147, 150, 150);
+        width: 150px;
+    }
+    .main{
+        margin-left: 50px;
+        /* margin-top: 5px; */
+        
+        width: 40rem;
+        border: 3px solid;
+        height: 15rem;
+    }
+    .footerdiv{
+        display: flex;
+        margin-left: 50px;
+        /* margin-top: 5px; */
+    width: 40rem;
+    border: 3px solid;
+    }
+    .addprodiv{
+        /* background-color: aqua; */
+        background-image: linear-gradient(to right,rgb(245, 231, 242),rgb(153, 152, 240));
+        width: 350px;
+        height: 400px;
+         margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        border-radius: 5px;
+
+        
+    }
+    .addsubdiv{
+        width: 300px;
+       margin: auto;
+   }
+    
+  }
