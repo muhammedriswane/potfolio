@@ -16,7 +16,7 @@ const PotfolioFotter = () => {
         <div className='footerdiv' >
             { selecter.map((val)=>{
               return(
-                <div className='ml-5'>
+                <div className='ml-5 mt-3'>
                <div class="card" style={{width:"18rem"}}>
                 <img src={val.projectimage}></img>
                 <div className="card-body">

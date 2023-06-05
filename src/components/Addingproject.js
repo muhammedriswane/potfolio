@@ -23,6 +23,14 @@ const Addingproject = () => {
 }
   return (
     <div className='addprodiv'>
+      {/* <FileBase64
+                multiple={false}
+                onDone={(res)=>{
+                  setNewdata({...newdata,image:res.base64})
+                }}
+
+
+                /> */}
         <div className='addsubdiv'>
            <form onSubmit={submitForm}> 
                 <div class="mb-3">
@@ -40,14 +48,7 @@ const Addingproject = () => {
                 </div>
                 
                
-{/* <FileBase64
-multiple={false}
-onDone={(res)=>{
-  setNewdata({...newdata,image:res.base64})
-}}
-
-
-/> */}
+                
                 <div class="mb-3">
                                  
                 </div>

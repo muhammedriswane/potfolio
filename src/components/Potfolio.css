@@ -15,9 +15,9 @@
     margin-left: 50px;
     margin-top: 30px;
     
-    width: 100rem;
+    width: 80rem;
     border: 3px solid;
-    height: 20rem;
+    height: 15rem;
 }
 h1{
     text-align: center;
@@ -27,15 +27,15 @@ h1{
     display: flex;
     margin-left: 50px;
     margin-top: 30px;
-width: 100rem;
+width: 80rem;
 border: 3px solid;
 
 }
 .addprodiv{
     /* background-color: aqua; */
-    background-image: linear-gradient(to right,rgb(226, 151, 214),rgb(237, 253, 176));
+    background-image: linear-gradient(to right,rgb(245, 231, 242),rgb(153, 152, 240));
     width: 800px;
-    height: 350px;
+    height: 400px;
      margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
@@ -47,14 +47,25 @@ border: 3px solid;
     margin: auto;
 }
 .proimg{
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
 }
 body{
+    
     background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Ik3xAk5C1irVgo5rw_rtTQzr4thcS3U9fA&usqp=CAU);
     background-size: 100%;
+    
 }
 /* .footmaindiv{
     border: 3px solid;
 
 } */
+.aboutmediv{
+    display: flex;
+    width: 100%;
+}
+.para{
+    padding-left: 20px;
+    color: beige;
+  }
+  
